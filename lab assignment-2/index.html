@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="Style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="nav-bar">
+            <h1 class="my-port-text">My Porfolio</h1>
+            <a class="about-text" href="#about">About</a>
+            <a class="skills-text" href="#my-skills">Skills</a>
+            <a class="proj-text" href="#projects">Projects</a>
+            <a class="cont-text" href="#contacts">Contacts</a>
+        </header>
+        <main>
+            <section id="about">
+                <h1>About Me</h1>
+                <img id="pfp" alt="manas-pfp" src="/LAB-1/IMG/Profile.jpeg">
+                <p>Hello! My name is Manas Kumar. I am learning web development and this is my first Portfolio website.</p>
+            </section>
+            <hr>
+            <section id="my-skills">
+                <h1>My Skills</h1>
+                <div class="table-container1">
+                    <table>
+                        <tr>
+                            <th>Skills</th>
+                            <th>Level</th>
+                        </tr>
+                        <tr>
+                            <td>HTML</td>
+                            <td>BEGINNER</td>
+                        </tr>
+                        <tr>
+                            <td>CSS</td>
+                            <td>BEGINNER</td>
+                        </tr>
+                        <tr>
+                            <td>JAVASCRIPT</td>
+                            <td>LEARNING</td>
+                        </tr>
+                    </table> 
+                </div>
+            </section>
+            <hr>
+            <section id="projects">
+                <h1>Projects</h1>
+                <div class="pro-1">Project 1
+                     <br>
+                     A simple HTML and CSS webpage
+                </div>
+                <br>
+                <div class="pro-2">
+                    Project 2 
+                    <br>
+                    Another awesome project
+                </div>
+            </section>
+            <hr>
+        </main>
+        <footer id="contacts">
+            <h1>Contact Me</h1>
+            <div class="table-container2">
+                <table>
+                    <tr>
+                        <td>
+                            <label for="name">Name:</label>
+                        </td>
+                        <td>
+                            <input id="name" type="text" placeholder="Enter your name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="email">Email:</label>
+                        </td>
+                        <td>
+                            <input id="email" type="email" placeholder="Enter your email">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="contact-mess">Message:</label>
+                        </td>
+                        <td>
+                            <textarea id="contact-mess" style="overflow: hidden;">
+                                Enter your message
+                            </textarea>
+                        </td>
+                    </tr>
+                    <tr class="send-button-row">
+                        <td>
+                            <div class="send-button-container">
+                                <a href="#send">
+                                    <button class="send-button">Send</button>
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="back-top-but-cont">
+                <a href="#about">
+                    <button class="back-top-but">&uarr; Back to top</button>
+                </a>
+            </div>
+        </footer>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </body>
+</html>

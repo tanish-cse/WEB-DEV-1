@@ -1,0 +1,160 @@
+html {
+    scroll-behavior: smooth;
+    font-family: "Roboto", Arial;
+    text-align: center;
+    background-color: lightgray;
+}
+
+main{
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-bar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+    background-color: rgb(0, 0, 200);
+}
+
+.my-port-text {
+    margin: 0;
+    color: white;
+}
+
+.about-text {
+    color: white;
+    margin-right: 9px;
+}
+
+.skills-text {
+    color: white;
+    margin-right: 9px;
+}
+
+.proj-text {
+    color: white;
+    margin-right: 9px;
+}
+
+.cont-text {
+    color: white;
+}
+
+#about {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#pfp {
+    height: 340px;
+    border-radius: 220px;
+    margin: 0 auto;
+}
+
+.wordtip {
+    font-size: larger;
+    font-weight: 700;
+}
+
+#my-skills {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.table-container1{
+    width: 63%;
+    margin: 0 auto;
+}
+
+table, th, td {
+    align-self: center;
+    border: 2px solid rgb(0, 0, 200);
+    border-collapse: collapse;
+    text-align: center;
+    vertical-align: middle;
+    padding: 20px 70px 20px 70px;
+
+}
+
+th {
+    color: white;
+    background-color: rgb(0, 0, 200);
+}
+
+#projects {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.pro-1 {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.pro-2 {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.table-container2{
+    width: 35%;
+    margin: 0 auto;
+}
+
+.send-button-row td{
+    border: none;
+    vertical-align: middle;
+    text-align: center;
+    padding: 30px;
+}
+
+.send-button-container {
+    position: absolute;
+}
+
+.send-button {
+    color: white;
+    background-color: rgb(0, 0, 200);
+    border: none;
+    border-radius: 3px;
+    padding: 10px 73px 10px 73px;
+    position: relative;
+    top: -18px;
+    left: 145px;
+}
+
+.send-button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: rgb(0, 0, 200);
+    border: 1px solid rgb(0, 0, 200);
+}
+
+.back-top-but {
+    position: relative;
+    top: -35px;
+    left: 1040px;
+    color: white;
+    background-color: rgb(0, 0, 200);
+    border: none;
+    border-radius: 3px;
+    padding: 10px 73px 10px 73px;
+}
+
+.back-top-but:hover {
+    cursor: pointer;
+    background-color: white;
+    color: rgb(0, 0, 200);
+    border: 1px solid rgb(0, 0, 200);
+}
+
+.back-top-but-cont {
+    position: absolute;
+}
